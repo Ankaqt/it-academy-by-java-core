@@ -22,5 +22,13 @@ public class Task06 {
         //TODO
         // Код, решающий задачу пишем ниже, при этом используяся переменные объявленные выше (их можно изменять)
         // Для проверки решения необходимо запустить @Test для данного class (в директории test)
+        int period = 5;
+        float percentage = annualPercentage/100F;
+        float fullPercentage = period*percentage;
+        float sum = deposit + deposit*fullPercentage;
+        System.out.println(sum);
+
+
+
     }
 }
